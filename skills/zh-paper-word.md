@@ -1,4 +1,4 @@
-# Skill Card: zh-paper-word
+# Skill Card: 中文论文 Word 转写 (`zh-paper-word`)
 
 Purpose: convert foreign academic papers into Chinese journal-style Word documents while preserving academic structure.
 

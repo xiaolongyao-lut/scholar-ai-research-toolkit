@@ -1,4 +1,4 @@
-# Skill Card: academic-english-discourse
+# Skill Card: 学术英语话语库 (`academic-english-discourse`)
 
 Purpose: improve English academic discourse and Chinese-English academic translation.
 

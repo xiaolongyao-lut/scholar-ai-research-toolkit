@@ -28,13 +28,13 @@
 | OCR 材料处理 | [workflows/ocr-material-processing.md](workflows/ocr-material-processing.md) | 处理扫描型 PDF 前检查 OCR 策略、引擎和健康状态。 |
 | 正交实验设计 | [workflows/orthogonal-design.md](workflows/orthogonal-design.md) | 构建设计表、选择 Taguchi 正交表、分析 S/N 比和响应。 |
 
-## Skill Cards
+## 技能卡片
 
-| Skill | Card | 用途 |
-|---|---|---|
-| `zh-paper-word` | [skills/zh-paper-word.md](skills/zh-paper-word.md) | 外文论文到中文 Word 的结构化流程。 |
-| `orthogonal-design` | [skills/orthogonal-design.md](skills/orthogonal-design.md) | Taguchi 正交实验设计与分析。 |
-| `academic-english-discourse` | [skills/academic-english-discourse.md](skills/academic-english-discourse.md) | 英文学术话语、综述写作和中英翻译策略。 |
+| 中文名 | 英文标识 | Card | 用途 |
+|---|---|---|---|
+| 中文论文 Word 转写 | `zh-paper-word` | [skills/zh-paper-word.md](skills/zh-paper-word.md) | 外文论文到中文 Word 的结构化流程。 |
+| 正交实验设计 | `orthogonal-design` | [skills/orthogonal-design.md](skills/orthogonal-design.md) | Taguchi 正交实验设计与分析。 |
+| 学术英语话语库 | `academic-english-discourse` | [skills/academic-english-discourse.md](skills/academic-english-discourse.md) | 英文学术话语、综述写作和中英翻译策略。 |
 
 ## 安全边界
 

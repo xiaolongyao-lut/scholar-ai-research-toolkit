@@ -24,6 +24,14 @@ It does not contain local credentials, logs, runtime databases, private papers, 
 | OCR material processing | [workflows/ocr-material-processing.md](workflows/ocr-material-processing.md) | Check OCR policy, engines, health, and authorized processing path. |
 | Orthogonal design | [workflows/orthogonal-design.md](workflows/orthogonal-design.md) | Design Taguchi orthogonal experiments and analyze S/N ratios or responses. |
 
+## Skill Cards
+
+| Chinese Name | Skill ID | Card | Use Case |
+|---|---|---|---|
+| 中文论文 Word 转写 | `zh-paper-word` | [skills/zh-paper-word.md](skills/zh-paper-word.md) | Structured conversion from foreign papers to Chinese journal-style Word documents. |
+| 正交实验设计 | `orthogonal-design` | [skills/orthogonal-design.md](skills/orthogonal-design.md) | Taguchi orthogonal experiment design and analysis. |
+| 学术英语话语库 | `academic-english-discourse` | [skills/academic-english-discourse.md](skills/academic-english-discourse.md) | Academic English discourse, literature-review writing, and CN/EN translation strategy. |
+
 ## Safety Boundary
 
 - Do not commit API keys, tokens, `.env`, cookies, browser profiles, databases, logs, or runtime state.

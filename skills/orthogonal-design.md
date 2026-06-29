@@ -1,4 +1,4 @@
-# Skill Card: orthogonal-design
+# Skill Card: 正交实验设计 (`orthogonal-design`)
 
 Purpose: design and analyze Taguchi orthogonal experiments.
 
