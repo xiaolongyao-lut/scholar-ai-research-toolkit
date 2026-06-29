@@ -20,3 +20,27 @@ Quality rules:
 - Validate factor levels and objective direction.
 - Do not force an invalid array.
 - Record selected array, run count, unique combinations, duplicate count, and validation status.
+
+## Dependencies
+
+- Python 3.11+ for table generation and analysis.
+- CSV or Excel-compatible output for experiment handoff.
+- Verified Taguchi orthogonal array definitions.
+- Optional response data for S/N ratio or response analysis.
+
+## Inputs
+
+- Factor names and levels.
+- Objective direction: larger-is-better, smaller-is-better, or nominal-is-best.
+- Optional constraints, minimum unique combination count, and response measurements.
+
+## Outputs
+
+- Factor-level experiment plan.
+- Orthogonality validation summary.
+- S/N ratio or response analysis when measurements are provided.
+- Recommended factor-level combination and caveats.
+
+## Boundary
+
+The skill helps design and analyze experiments; it does not replace domain judgment, safety review, equipment constraints, or statistical consultation for high-stakes experiments.

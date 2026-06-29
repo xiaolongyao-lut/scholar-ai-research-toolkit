@@ -17,24 +17,16 @@
 | [Scholar AI](https://github.com/xiaolongyao-lut/Scholar-AI) | 本地文献工作台、MCP 工具箱、后端、桌面端、检索、OCR、写作和测试。 |
 | [scholar-ai-research-toolkit](https://github.com/xiaolongyao-lut/scholar-ai-research-toolkit) | 本仓库，公开 Scholar AI 沉淀出来的科研 workflow recipes 与 skill cards。 |
 
-## 工作流目录
+## 工作流、技能与依赖
 
-| 工作流 | 入口 | 适用场景 |
-|---|---|---|
-| 论文证据包 | [workflows/evidence-pack.md](workflows/evidence-pack.md) | 从本地文献库检索 refs，构建证据包，做完整性检查。 |
-| 单篇论文研读 | [workflows/single-paper-reading.md](workflows/single-paper-reading.md) | 阅读一篇论文，抽取 chunk、图表候选、摘要和交接卡。 |
-| 外文论文转中文 Word | [workflows/zh-paper-word.md](workflows/zh-paper-word.md) | 将外文 PDF 或 LaTeX/Pandoc 输出整理为中文期刊风格 DOCX。 |
-| 学术写作与导出 | [workflows/academic-writing-export.md](workflows/academic-writing-export.md) | 从证据包生成提纲、检查写作、导出 Word。 |
-| OCR 材料处理 | [workflows/ocr-material-processing.md](workflows/ocr-material-processing.md) | 处理扫描型 PDF 前检查 OCR 策略、引擎和健康状态。 |
-| 正交实验设计 | [workflows/orthogonal-design.md](workflows/orthogonal-design.md) | 构建设计表、选择 Taguchi 正交表、分析 S/N 比和响应。 |
-
-## 技能卡片
-
-| 中文名 | 英文标识 | Card | 用途 |
+| 方向 | 工作流入口 | 关联技能 | 主要依赖 |
 |---|---|---|---|
-| 中文论文 Word 转写 | `zh-paper-word` | [skills/zh-paper-word.md](skills/zh-paper-word.md) | 外文论文到中文 Word 的结构化流程。 |
-| 正交实验设计 | `orthogonal-design` | [skills/orthogonal-design.md](skills/orthogonal-design.md) | Taguchi 正交实验设计与分析。 |
-| 学术英语话语库 | `academic-english-discourse` | [skills/academic-english-discourse.md](skills/academic-english-discourse.md) | 英文学术话语、综述写作和中英翻译策略。 |
+| 论文证据包 | [workflows/evidence-pack.md](workflows/evidence-pack.md) | Scholar AI MCP 工具箱 | Scholar AI 本地项目、可检索材料、`literature.search_refs` / `evidence_pack_build` / `evidence_integrity_gate` |
+| 单篇论文研读 | [workflows/single-paper-reading.md](workflows/single-paper-reading.md) | Scholar AI MCP 工具箱 | Scholar AI material id、页码级 chunks、图表候选工具、Agent Workspace |
+| 中文论文 Word 转写 | [workflows/zh-paper-word.md](workflows/zh-paper-word.md) | [中文论文 Word 转写](skills/zh-paper-word.md) (`zh-paper-word`) | Python、PyMuPDF、Pandoc、python-docx、可选 OCR、用户自选翻译模型 |
+| 学术写作与导出 | [workflows/academic-writing-export.md](workflows/academic-writing-export.md) | [学术英语话语库](skills/academic-english-discourse.md) (`academic-english-discourse`) | Scholar AI 证据包、写作 lint、引用来源检查、可选 DOCX 导出 |
+| OCR 材料处理 | [workflows/ocr-material-processing.md](workflows/ocr-material-processing.md) | Scholar AI OCR 链路 | Scholar AI OCR 配置、OCR engine health、扫描型 PDF、用户授权的本地或远程 OCR |
+| 正交实验设计 | [workflows/orthogonal-design.md](workflows/orthogonal-design.md) | [正交实验设计](skills/orthogonal-design.md) (`orthogonal-design`) | 因素/水平表、Taguchi 正交表、Python CSV/Excel 输出、响应数据可选 |
 
 ## 安全边界
 

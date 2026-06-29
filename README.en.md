@@ -13,24 +13,16 @@ It does not contain local credentials, logs, runtime databases, private papers, 
 | [Scholar AI](https://github.com/xiaolongyao-lut/Scholar-AI) | Local research workspace, MCP toolbox, backend, desktop app, retrieval, OCR, writing, and tests. |
 | [scholar-ai-research-toolkit](https://github.com/xiaolongyao-lut/scholar-ai-research-toolkit) | This repository: public Scholar AI workflow recipes and skill cards. |
 
-## Workflows
+## Workflows, Skills, And Dependencies
 
-| Workflow | Entry | Use Case |
-|---|---|---|
-| Evidence pack | [workflows/evidence-pack.md](workflows/evidence-pack.md) | Search local literature refs, build evidence packs, and run integrity checks. |
-| Single-paper reading | [workflows/single-paper-reading.md](workflows/single-paper-reading.md) | Read one paper, collect chunks, figure candidates, summary, and handoff notes. |
-| Paper to Chinese Word | [workflows/zh-paper-word.md](workflows/zh-paper-word.md) | Convert foreign papers into Chinese journal-style DOCX. |
-| Academic writing export | [workflows/academic-writing-export.md](workflows/academic-writing-export.md) | Turn evidence packs into outlines, checked prose, and Word output. |
-| OCR material processing | [workflows/ocr-material-processing.md](workflows/ocr-material-processing.md) | Check OCR policy, engines, health, and authorized processing path. |
-| Orthogonal design | [workflows/orthogonal-design.md](workflows/orthogonal-design.md) | Design Taguchi orthogonal experiments and analyze S/N ratios or responses. |
-
-## Skill Cards
-
-| Chinese Name | Skill ID | Card | Use Case |
+| Area | Workflow Entry | Related Skill | Main Dependencies |
 |---|---|---|---|
-| 中文论文 Word 转写 | `zh-paper-word` | [skills/zh-paper-word.md](skills/zh-paper-word.md) | Structured conversion from foreign papers to Chinese journal-style Word documents. |
-| 正交实验设计 | `orthogonal-design` | [skills/orthogonal-design.md](skills/orthogonal-design.md) | Taguchi orthogonal experiment design and analysis. |
-| 学术英语话语库 | `academic-english-discourse` | [skills/academic-english-discourse.md](skills/academic-english-discourse.md) | Academic English discourse, literature-review writing, and CN/EN translation strategy. |
+| Evidence pack | [workflows/evidence-pack.md](workflows/evidence-pack.md) | Scholar AI MCP toolbox | Scholar AI local project, indexed materials, `literature.search_refs` / `evidence_pack_build` / `evidence_integrity_gate` |
+| Single-paper reading | [workflows/single-paper-reading.md](workflows/single-paper-reading.md) | Scholar AI MCP toolbox | Scholar AI material id, page-level chunks, figure candidate tools, Agent Workspace |
+| Paper to Chinese Word | [workflows/zh-paper-word.md](workflows/zh-paper-word.md) | [中文论文 Word 转写](skills/zh-paper-word.md) (`zh-paper-word`) | Python, PyMuPDF, Pandoc, python-docx, optional OCR, user-selected translation model |
+| Academic writing export | [workflows/academic-writing-export.md](workflows/academic-writing-export.md) | [学术英语话语库](skills/academic-english-discourse.md) (`academic-english-discourse`) | Scholar AI evidence pack, writing lint, citation source checks, optional DOCX export |
+| OCR material processing | [workflows/ocr-material-processing.md](workflows/ocr-material-processing.md) | Scholar AI OCR chain | Scholar AI OCR config, OCR engine health, scanned PDFs, user-authorized local or remote OCR |
+| Orthogonal design | [workflows/orthogonal-design.md](workflows/orthogonal-design.md) | [正交实验设计](skills/orthogonal-design.md) (`orthogonal-design`) | Factor-level table, Taguchi orthogonal arrays, Python CSV/Excel output, optional response data |
 
 ## Safety Boundary
 
