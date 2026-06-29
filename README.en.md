@@ -2,7 +2,7 @@
 
 [中文](README.md) · [English](README.en.md) · [Scholar AI](https://github.com/xiaolongyao-lut/Scholar-AI)
 
-This repository collects public research workflow recipes and skill cards for paper reading, evidence work, translation, academic writing, OCR, experiment design, notebooks, and research documentation.
+This repository collects public research workflow recipes and skill cards that were designed, verified, or distilled inside the Scholar AI project. It focuses on paper reading, evidence work, translation, academic writing, OCR, and experiment design.
 
 It does not contain local credentials, logs, runtime databases, private papers, or user project data. It is a reusable workflow companion for Scholar AI and other open-source research setups.
 
@@ -11,7 +11,7 @@ It does not contain local credentials, logs, runtime databases, private papers, 
 | Repository | Contents |
 |---|---|
 | [Scholar AI](https://github.com/xiaolongyao-lut/Scholar-AI) | Local research workspace, MCP toolbox, backend, desktop app, retrieval, OCR, writing, and tests. |
-| [scholar-ai-research-toolkit](https://github.com/xiaolongyao-lut/scholar-ai-research-toolkit) | This repository: public research workflow recipes and skill cards. |
+| [scholar-ai-research-toolkit](https://github.com/xiaolongyao-lut/scholar-ai-research-toolkit) | This repository: public Scholar AI workflow recipes and skill cards. |
 
 ## Workflows
 
@@ -23,8 +23,6 @@ It does not contain local credentials, logs, runtime databases, private papers, 
 | Academic writing export | [workflows/academic-writing-export.md](workflows/academic-writing-export.md) | Turn evidence packs into outlines, checked prose, and Word output. |
 | OCR material processing | [workflows/ocr-material-processing.md](workflows/ocr-material-processing.md) | Check OCR policy, engines, health, and authorized processing path. |
 | Orthogonal design | [workflows/orthogonal-design.md](workflows/orthogonal-design.md) | Design Taguchi orthogonal experiments and analyze S/N ratios or responses. |
-| Jupyter research notebook | [workflows/jupyter-research-notebook.md](workflows/jupyter-research-notebook.md) | Create reproducible notebooks for experiments and data analysis. |
-| Notion research docs | [workflows/notion-research-docs.md](workflows/notion-research-docs.md) | Turn notes, discussions, and specs into structured Notion documentation. |
 
 ## Safety Boundary
 
