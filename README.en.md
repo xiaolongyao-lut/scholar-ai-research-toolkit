@@ -10,17 +10,17 @@ It does not contain local credentials, logs, runtime databases, private papers, 
 
 | Repository | Contents |
 |---|---|
-| [Scholar AI](https://github.com/xiaolongyao-lut/Scholar-AI) | Local research workspace, [MCP toolbox](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md), backend, desktop app, retrieval, OCR, writing, and tests. |
+| [Scholar AI](https://github.com/xiaolongyao-lut/Scholar-AI) | Local research workspace, [RAG and evidence architecture](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/rag-evidence-architecture.en.md), [MCP toolbox](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md), backend, desktop app, retrieval, OCR, writing, and tests. |
 | [scholar-ai-research-toolkit](https://github.com/xiaolongyao-lut/scholar-ai-research-toolkit) | This repository: public Scholar AI workflow recipes and skill cards. |
 
 ## Workflows, Skills, And Dependencies
 
 | Area | Workflow Entry | Related Skill | Main Dependencies |
 |---|---|---|---|
-| Evidence pack | [workflows/evidence-pack.md](workflows/evidence-pack.md) | [Scholar AI MCP toolbox](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md) | Scholar AI local project, indexed materials, `literature.search_refs` / `evidence_pack_build` / `evidence_integrity_gate` |
-| Single-paper reading | [workflows/single-paper-reading.md](workflows/single-paper-reading.md) | [Scholar AI MCP toolbox](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md) | Scholar AI material id, page-level chunks, figure candidate tools, Agent Workspace |
+| Evidence pack | [workflows/evidence-pack.md](workflows/evidence-pack.md) | [Scholar AI MCP toolbox](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md) | [Scholar AI RAG and evidence architecture](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/rag-evidence-architecture.en.md), local project, indexed materials, `literature.search_refs` / `evidence_pack_build` / `evidence_integrity_gate` |
+| Single-paper reading | [workflows/single-paper-reading.md](workflows/single-paper-reading.md) | [Scholar AI MCP toolbox](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md) | [Scholar AI RAG and evidence architecture](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/rag-evidence-architecture.en.md), material id, page-level chunks, figure candidate tools, Agent Workspace |
 | Paper to Chinese Word | [workflows/zh-paper-word.md](workflows/zh-paper-word.md) | [中文论文 Word 转写](skills/zh-paper-word.md) (`zh-paper-word`) | Python, PyMuPDF, Pandoc, python-docx, optional OCR, user-selected translation model |
-| Academic writing export | [workflows/academic-writing-export.md](workflows/academic-writing-export.md) | [学术英语话语库](skills/academic-english-discourse.md) (`academic-english-discourse`) | [Scholar AI evidence pack](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md), writing lint, citation source checks, optional DOCX export |
+| Academic writing export | [workflows/academic-writing-export.md](workflows/academic-writing-export.md) | [学术英语话语库](skills/academic-english-discourse.md) (`academic-english-discourse`) | [Scholar AI RAG and evidence architecture](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/rag-evidence-architecture.en.md), [evidence pack](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md), writing lint, citation source checks, optional DOCX export |
 | OCR material processing | [workflows/ocr-material-processing.md](workflows/ocr-material-processing.md) | [Scholar AI OCR chain](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md) | Scholar AI OCR config, OCR engine health, scanned PDFs, user-authorized local or remote OCR |
 | Orthogonal design | [workflows/orthogonal-design.md](workflows/orthogonal-design.md) | [正交实验设计](skills/orthogonal-design.md) (`orthogonal-design`) | Factor-level table, Taguchi orthogonal arrays, Python CSV/Excel output, optional response data |
 

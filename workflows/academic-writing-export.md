@@ -2,7 +2,7 @@
 
 Goal: turn source-grounded evidence into an outline, checked prose, and Word output.
 
-Scholar AI toolbox reference: [Claude / Codex Toolbox](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md).
+Scholar AI references: [RAG and Evidence Architecture](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/rag-evidence-architecture.en.md) and [Claude / Codex Toolbox](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md).
 
 ## Inputs
 

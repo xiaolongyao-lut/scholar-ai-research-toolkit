@@ -14,17 +14,17 @@
 
 | 仓库 | 内容 |
 |---|---|
-| [Scholar AI](https://github.com/xiaolongyao-lut/Scholar-AI) | 本地文献工作台、[MCP 工具箱](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.md)、后端、桌面端、检索、OCR、写作和测试。 |
+| [Scholar AI](https://github.com/xiaolongyao-lut/Scholar-AI) | 本地文献工作台、[RAG 与证据架构](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/rag-evidence-architecture.md)、[MCP 工具箱](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.md)、后端、桌面端、检索、OCR、写作和测试。 |
 | [scholar-ai-research-toolkit](https://github.com/xiaolongyao-lut/scholar-ai-research-toolkit) | 本仓库，公开 Scholar AI 沉淀出来的科研 workflow recipes 与 skill cards。 |
 
 ## 工作流、技能与依赖
 
 | 方向 | 工作流入口 | 关联技能 | 主要依赖 |
 |---|---|---|---|
-| 论文证据包 | [workflows/evidence-pack.md](workflows/evidence-pack.md) | [Scholar AI MCP 工具箱](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.md) | Scholar AI 本地项目、可检索材料、`literature.search_refs` / `evidence_pack_build` / `evidence_integrity_gate` |
-| 单篇论文研读 | [workflows/single-paper-reading.md](workflows/single-paper-reading.md) | [Scholar AI MCP 工具箱](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.md) | Scholar AI material id、页码级 chunks、图表候选工具、Agent Workspace |
+| 论文证据包 | [workflows/evidence-pack.md](workflows/evidence-pack.md) | [Scholar AI MCP 工具箱](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.md) | [Scholar AI RAG 与证据架构](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/rag-evidence-architecture.md)、本地项目、可检索材料、`literature.search_refs` / `evidence_pack_build` / `evidence_integrity_gate` |
+| 单篇论文研读 | [workflows/single-paper-reading.md](workflows/single-paper-reading.md) | [Scholar AI MCP 工具箱](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.md) | [Scholar AI RAG 与证据架构](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/rag-evidence-architecture.md)、material id、页码级 chunks、图表候选工具、Agent Workspace |
 | 中文论文 Word 转写 | [workflows/zh-paper-word.md](workflows/zh-paper-word.md) | [中文论文 Word 转写](skills/zh-paper-word.md) (`zh-paper-word`) | Python、PyMuPDF、Pandoc、python-docx、可选 OCR、用户自选翻译模型 |
-| 学术写作与导出 | [workflows/academic-writing-export.md](workflows/academic-writing-export.md) | [学术英语话语库](skills/academic-english-discourse.md) (`academic-english-discourse`) | [Scholar AI 证据包](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.md)、写作 lint、引用来源检查、可选 DOCX 导出 |
+| 学术写作与导出 | [workflows/academic-writing-export.md](workflows/academic-writing-export.md) | [学术英语话语库](skills/academic-english-discourse.md) (`academic-english-discourse`) | [Scholar AI RAG 与证据架构](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/rag-evidence-architecture.md)、[证据包](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.md)、写作 lint、引用来源检查、可选 DOCX 导出 |
 | OCR 材料处理 | [workflows/ocr-material-processing.md](workflows/ocr-material-processing.md) | [Scholar AI OCR 链路](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.md) | Scholar AI OCR 配置、OCR engine health、扫描型 PDF、用户授权的本地或远程 OCR |
 | 正交实验设计 | [workflows/orthogonal-design.md](workflows/orthogonal-design.md) | [正交实验设计](skills/orthogonal-design.md) (`orthogonal-design`) | 因素/水平表、Taguchi 正交表、Python CSV/Excel 输出、响应数据可选 |
 

@@ -2,7 +2,7 @@
 
 Goal: turn a research question into source-grounded refs, evidence items, and an integrity status that can be reused by an AI agent or a human writer.
 
-Scholar AI toolbox reference: [Claude / Codex Toolbox](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md).
+Scholar AI references: [RAG and Evidence Architecture](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/rag-evidence-architecture.en.md) and [Claude / Codex Toolbox](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md).
 
 ## Inputs
 

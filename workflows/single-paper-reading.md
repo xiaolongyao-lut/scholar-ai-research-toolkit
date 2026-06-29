@@ -2,7 +2,7 @@
 
 Goal: read one paper into a reusable packet with metadata, chunks, figure candidates, key claims, limitations, and handoff notes.
 
-Scholar AI toolbox reference: [Claude / Codex Toolbox](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md).
+Scholar AI references: [RAG and Evidence Architecture](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/rag-evidence-architecture.en.md) and [Claude / Codex Toolbox](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md).
 
 ## Inputs
 
