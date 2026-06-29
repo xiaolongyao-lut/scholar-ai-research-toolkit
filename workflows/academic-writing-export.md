@@ -2,10 +2,12 @@
 
 Goal: turn source-grounded evidence into an outline, checked prose, and Word output.
 
+Scholar AI toolbox reference: [Claude / Codex Toolbox](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md).
+
 ## Inputs
 
 - Research question or section goal.
-- Evidence pack refs.
+- Evidence pack refs from the [Scholar AI MCP toolbox](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md).
 - Target language and journal/style constraints.
 
 ## Tool Chain

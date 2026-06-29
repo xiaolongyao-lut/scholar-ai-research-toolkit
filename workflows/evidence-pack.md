@@ -2,10 +2,12 @@
 
 Goal: turn a research question into source-grounded refs, evidence items, and an integrity status that can be reused by an AI agent or a human writer.
 
+Scholar AI toolbox reference: [Claude / Codex Toolbox](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md).
+
 ## Inputs
 
 - Research question or topic.
-- Scholar AI project id.
+- Scholar AI project id from the [Scholar AI MCP toolbox](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md).
 - Optional constraints: paper types, time range, methods, materials, or target section.
 
 ## Tool Chain

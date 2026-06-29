@@ -2,9 +2,11 @@
 
 Goal: handle scanned or mixed PDF materials without guessing the OCR path.
 
+Scholar AI toolbox reference: [Claude / Codex Toolbox](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md).
+
 ## Inputs
 
-- Material id or source PDF.
+- Material id or source PDF from a local Scholar AI project.
 - OCR policy preference if the default is not enough.
 - User authorization for any expensive or remote OCR operation.
 

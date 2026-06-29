@@ -10,6 +10,7 @@
 *.log
 *.jsonl
 workspace_artifacts/
+.rollback_snapshots/
 runtime_state/
 outputs/
 cache/

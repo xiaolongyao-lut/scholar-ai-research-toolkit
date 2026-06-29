@@ -2,9 +2,11 @@
 
 Goal: read one paper into a reusable packet with metadata, chunks, figure candidates, key claims, limitations, and handoff notes.
 
+Scholar AI toolbox reference: [Claude / Codex Toolbox](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md).
+
 ## Inputs
 
-- Scholar AI project id.
+- Scholar AI project id from the [Scholar AI MCP toolbox](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md).
 - Material id for one paper.
 - Reading purpose, such as background, method extraction, comparison, or citation support.
 
