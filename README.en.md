@@ -23,6 +23,7 @@ It does not contain local credentials, logs, runtime databases, private papers, 
 | Academic writing export | [workflows/academic-writing-export.md](workflows/academic-writing-export.md) | [学术英语话语库](skills/academic-english-discourse.md) (`academic-english-discourse`) | [Scholar AI RAG and evidence architecture](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/rag-evidence-architecture.en.md), [evidence pack](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md), writing lint, citation source checks, optional DOCX export |
 | OCR material processing | [workflows/ocr-material-processing.md](workflows/ocr-material-processing.md) | [Scholar AI OCR chain](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.en.md) | Scholar AI OCR config, OCR engine health, scanned PDFs, user-authorized local or remote OCR |
 | Orthogonal design | [workflows/orthogonal-design.md](workflows/orthogonal-design.md) | [正交实验设计](skills/orthogonal-design.md) (`orthogonal-design`) | Factor-level table, Taguchi orthogonal arrays, Python CSV/Excel output, optional response data |
+| Open-source project page writing | No standalone workflow | [开源项目页写作](skills/open-source-project-page.md) (`open-source-project-page`) | Target README, screenshots/docs/Release links, public boundary, mature open-source README references, pre-commit secret scan |
 
 ## Safety Boundary
 
