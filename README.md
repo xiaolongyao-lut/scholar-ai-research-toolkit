@@ -27,7 +27,6 @@
 | 学术写作与导出 | [workflows/academic-writing-export.md](workflows/academic-writing-export.md) | [学术英语话语库](skills/academic-english-discourse.md) (`academic-english-discourse`) | [Scholar AI RAG 与证据架构](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/rag-evidence-architecture.md)、[证据包](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.md)、写作 lint、引用来源检查、可选 DOCX 导出 |
 | OCR 材料处理 | [workflows/ocr-material-processing.md](workflows/ocr-material-processing.md) | [Scholar AI OCR 链路](https://github.com/xiaolongyao-lut/Scholar-AI/blob/main/docs/claude-codex-toolbox.md) | Scholar AI OCR 配置、OCR engine health、扫描型 PDF、用户授权的本地或远程 OCR |
 | 正交实验设计 | [workflows/orthogonal-design.md](workflows/orthogonal-design.md) | [正交实验设计](skills/orthogonal-design.md) (`orthogonal-design`) | 因素/水平表、Taguchi 正交表、Python CSV/Excel 输出、响应数据可选 |
-| 开源项目页写作 | 无独立 workflow | [开源项目页写作](skills/open-source-project-page.md) (`open-source-project-page`) | 目标仓库 README、截图/文档/Release 链接、公开边界、成熟开源 README 参考、提交前 secret scan |
 
 ## 安全边界
 
