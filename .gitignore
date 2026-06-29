@@ -1,0 +1,19 @@
+# Local and generated state
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.sqlite
+*.sqlite3
+*.db
+*.log
+*.jsonl
+workspace_artifacts/
+runtime_state/
+outputs/
+cache/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
